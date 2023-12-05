@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <h1 id="top">Welcome to The Little Toco Shop</h1>
+        <h1 id="top" style="text-align: center;">Welcome to The Little Toco Shop</h1>
         <nav>
             <ul>
                 <li>
@@ -19,15 +19,15 @@
                 </li>
                 
                 <li>
-                    <a href="#menu">Our Menu</a>
+                    <a href="#menu" target="_blank">Our Menu</a>
                 </li>
 
                 <li>
-                    <a href="hours.html">Store Hour</a>
+                    <a href="hours.html" target="_blank">Store Hour</a>
                 </li>
 
                 <li>
-                    <a href="contacts.html">Contact Us</a>
+                    <a href="contacts.html" target="_blank">Contact Us</a>
                 </li>
             </ul>
         </nav>
@@ -61,6 +61,71 @@
                     </p>
                 </details>
             </aside>
+
+        </article>
+
+        <hr>
+
+        <article id="menu">
+
+            <h2>Our Menu</h2>
+
+            <table border="1">
+                <caption>Our Tacos</caption>
+
+                <thead>
+                    <tr>
+                        <th>Tocos</th>
+                        <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3">
+                            Crunchy
+                        </th>
+                        <td>1</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>$2.50</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>$3.50</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row" rowspan="3">
+                            Soft
+                        </th>
+                        <td>2</td>
+                        <td>$3.2</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>$4.2</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>$5.2</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            Chips &amp; Salsa $2
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br>
+            <p>
+                <a href="#">Back To Top</a>
+            </p>
 
         </article>
     </main>
